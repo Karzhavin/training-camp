@@ -43,3 +43,18 @@ body {
     inset 0 0 5px 2px darkgray,
     inset 0 0 10px 10px silver;
 }
+
+.ball:hover {
+  cursor: grab;
+  box-shadow:
+    0 0 3px 0 darkgray,
+    inset 0 0 5px 2px darkgray,
+    inset 0 0 10px 10px silver;
+  transform: scale(1.02);
+  filter: opacity(.9);
+}
+
+.ball:active {
+  cursor: grabbing;
+  filter: opacity(1);
+}
